@@ -170,7 +170,27 @@ function App() {
                         <button className='btn btn' style={{ backgroundColor: '#fce7c5', color: '#000' }}>Get Started <a style={{ color: '#000' }} href="#"><span className="fas fa-long-arrow-alt-right"></span></a></button>
                         <hr className="my-4" />
                         <p >What you'll get : </p>
-                    
+
+                        <div className="d-flex justify-content-start align-items-center mb-1">
+                          <i className="far fa-user fa-fw me-3" />
+                          <div className="d-flex flex-column">
+                            <p className="mb-0 small">Upto 25 Users</p>
+                          </div>
+                        </div>
+                        <div className="d-flex justify-content-start align-items-center mb-1">
+                          <i className="fa fa-cloud-arrow-up  me-3" />
+                          <div className="d-flex flex-column">
+                            {/* <label className="form-label" htmlFor="form1Example1">Upto 25 Users</label> */}
+                            <p className="mb-0 small">Upto 25gb Storage</p>
+                          </div>
+                        </div>
+                        <div className="d-flex justify-content-start align-items-center mb-1">
+                        <i className="far fa-envelope fa-fw me-3" />
+                          <div className="d-flex flex-column">
+                            <p className="mb-0 small">Email Support</p>
+                          </div>
+                        </div>
+                        <p className='mt-3 justify-content-center mb-0 small' style={{fontWeight:700,marginLeft:"35px"}}> <u>EXPLORE FEATURES</u><i style={{color:"#fce7c5"}} className="fa fa-play fa-fw me-3" /></p>
 
 
                       </div>
@@ -521,6 +541,70 @@ function App() {
         </main>
         {/*Main layout*/}
       </div>
+      <div className="container">
+        <section className="mx-auto my-5" style={{ maxWidth: '23rem' }}>
+          <div className="card card-form mt-2 mb-4">
+            <div className="card-body rounded-top pink darken-4">
+              <h3 className="font-weight-bold text-center text-uppercase text-white my-4">Sign up</h3>
+              <form className="pb-5 px-2" >
+                <div className="d-flex justify-content-start align-items-center mb-4">
+                  <i className="far fa-user fa-lg text-white fa-fw me-3" />
+                  <div className="form-outline form-white w-100">
+                    <input type="text" id="form1Example1" className="form-control" />
+                    <label className="form-label" htmlFor="form1Example1">First name</label>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-start align-items-center mb-4">
+                  <i className="far fa-hand-point-right fa-lg text-white fa-fw me-3" />
+                  <div className="form-outline form-white w-100">
+                    <input type="text" id="form1Example2" className="form-control" />
+                    <label className="form-label" htmlFor="form1Example2">Last name</label>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-start align-items-center mb-4">
+                  <i className="far fa-envelope fa-lg text-white fa-fw me-3" />
+                  <div className="form-outline form-white w-100">
+                    <input type="text" id="form1Example3" className="form-control" />
+                    <label className="form-label" htmlFor="form1Example3">E-mail</label>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-start align-items-center pb-3">
+                  <i className="far fa-star fa-lg text-white fa-fw me-3" />
+                  <div className="form-outline form-white w-100">
+                    <input type="password" id="form1Example4" className="form-control" />
+                    <label className="form-label" htmlFor="form1Example4">Password</label>
+                    <div className="form-helper text-white">At least 8 characters and 1 digit</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div className="card card-form-2 mb-0 z-depth-0">
+              <div className="card-body">
+                <form className="text-center">
+                  <div className="form-check red-checkbox my-3">
+                    <input className="form-check-input ms-auto" type="checkbox" defaultValue id="flexCheckDefault1" defaultChecked />
+                    <label className="form-check-label" htmlFor="flexCheckDefault1">
+                      Subscribe to our newsletter
+                    </label>
+                  </div>
+                  <button className="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" type="submit">Sign in</button>
+                  <p>or sign up with:</p>
+                  <i className="fab fa-lg fa-facebook-f pink-accent-text px-2" />
+                  <i className="fab fa-lg fa-twitter pink-accent-text px-2" />
+                  <i className="fab fa-lg fa-linkedin-in pink-accent-text px-2" />
+                  <i className="fab fa-lg fa-github pink-accent-text px-2" />
+                  <hr />
+                  <p>By clicking
+                    <em>Sign up</em> you agree to our
+                    <a className="pink-accent-text" href="#!" target="_blank">terms of service</a> and
+                    <a className="pink-accent-text" href="#!" target="_blank">terms of service</a>. </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
 
     </div>
   );
