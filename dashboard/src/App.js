@@ -158,7 +158,7 @@ function App() {
 
             <section>
               <div className="row">
-                <div className="col-md-6 col-lg-4 mb-4">
+                <div className="col-12 col-md-6 col-lg-4 mb-4">
                   <div className="card">
                     <div class="container">
                       <div className="card-body">
@@ -180,128 +180,90 @@ function App() {
                         <div className="d-flex justify-content-start align-items-center mb-1">
                           <i className="fa fa-cloud-arrow-up  me-3" />
                           <div className="d-flex flex-column">
-                            {/* <label className="form-label" htmlFor="form1Example1">Upto 25 Users</label> */}
                             <p className="mb-0 small">Upto 25gb Storage</p>
                           </div>
                         </div>
                         <div className="d-flex justify-content-start align-items-center mb-1">
-                        <i className="far fa-envelope fa-fw me-3" />
+                          <i className="far fa-envelope fa-fw me-3" />
                           <div className="d-flex flex-column">
                             <p className="mb-0 small">Email Support</p>
                           </div>
                         </div>
-                        <p className='mt-3 justify-content-center mb-0 small' style={{fontWeight:700,marginLeft:"35px"}}> <u>EXPLORE FEATURES</u><i style={{color:"#fce7c5"}} className="fa fa-play fa-fw me-3" /></p>
-
-
+                        <p className='mt-3 justify-content-center mb-0 small' style={{ fontWeight: 700, marginLeft: "35px" }}> <u>EXPLORE FEATURES</u><i style={{ color: "#fce7c5" }} className="fa fa-play fa-fw me-3" /></p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 col-lg-4 mb-4">
+                <div className="col-12 col-md-6 col-lg-4 mb-4">
                   <div className="card">
                     <div class="container">
                       <div className="card-body">
-                        <h5 className="card-title font-weight-bold"><a>La Sirena restaurant</a></h5>
-                        <ul className="list-unstyled list-inline mb-0">
-                          <li className="list-inline-item me-0">
-                            <i className="fas fa-star text-warning fa-xs"> </i>
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <i className="fas fa-star text-warning fa-xs" />
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <i className="fas fa-star text-warning fa-xs" />
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <i className="fas fa-star text-warning fa-xs" />
-                          </li>
-                          <li className="list-inline-item">
-                            <i className="fas fa-star-half-alt text-warning fa-xs" />
-                          </li>
-                          <li className="list-inline-item">
-                            <p className="text-muted">4.5 (413)</p>
-                          </li>
-                        </ul>
-                        <p className="mb-2">$ • American, Restaurant</p>
-                        <p className="card-text">
-                          Some quick example text to build on the card title and make up the bulk of the
-                          card's content.
-                        </p>
+                        <h2 className="card-title " style={{ fontWeight: 600 }}>Standard</h2>
+
+                        <span className="text-danger"><s>$ 89.99/mo</s></span>
+                        <h2 className="mb-2" style={{ fontWeight: 'normal' }}>$ 9.99/mo</h2>
+
+                        <button className='btn btn' style={{ backgroundColor: '#f28d98', color: '#000' }}>Get Started <a style={{ color: '#000' }} href="#"><span className="fas fa-long-arrow-alt-right"></span></a></button>
                         <hr className="my-4" />
-                        <p className="lead"><strong>Tonight's availability</strong></p>
-                        <ul className="list-unstyled list-inline d-flex justify-content-between">
-                          <li className="list-inline-item me-0">
-                            <div className="chip me-0">5:30PM</div>
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <div className="chip bg-secondary text-white me-0">7:30PM</div>
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <div className="chip me-0">8:00PM</div>
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <div className="chip me-0">9:00PM</div>
-                          </li>
-                        </ul>
-                        <a href="#!" className="btn btn-link link-secondary p-md-1 mb-0">Button</a>
+                        <p >What you'll get : </p>
+
+                        <div className="d-flex justify-content-start align-items-center mb-1">
+                          <i className="far fa-user fa-fw me-3" />
+                          <div className="d-flex flex-column">
+                            <p className="mb-0 small">Upto 25 Users</p>
+                          </div>
+                        </div>
+                        <div className="d-flex justify-content-start align-items-center mb-1">
+                          <i className="fa fa-cloud-arrow-up  me-3" />
+                          <div className="d-flex flex-column">
+                            <p className="mb-0 small">Upto 25gb Storage</p>
+                          </div>
+                        </div>
+                        <div className="d-flex justify-content-start align-items-center mb-1">
+                          <i className="far fa-envelope fa-fw me-3" />
+                          <div className="d-flex flex-column">
+                            <p className="mb-0 small">Email Support</p>
+                          </div>
+                        </div>
+                        <p className='mt-3 justify-content-center mb-0 small' style={{ fontWeight: 700, marginLeft: "35px" }}> <u>EXPLORE FEATURES</u><i style={{ color: "#f28d98" }} className="fa fa-play fa-fw me-3" /></p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 col-lg-4 mb-4">
+                <div className="col-12 col-md-6 col-lg-4 mb-4 ">
                   <div className="card">
                     <div class="container">
                       <div className="card-body">
-                        <h5 className="card-title font-weight-bold"><a>La Sirena restaurant</a></h5>
-                        <ul className="list-unstyled list-inline mb-0">
-                          <li className="list-inline-item me-0">
-                            <i className="fas fa-star text-warning fa-xs"> </i>
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <i className="fas fa-star text-warning fa-xs" />
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <i className="fas fa-star text-warning fa-xs" />
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <i className="fas fa-star text-warning fa-xs" />
-                          </li>
-                          <li className="list-inline-item">
-                            <i className="fas fa-star-half-alt text-warning fa-xs" />
-                          </li>
-                          <li className="list-inline-item">
-                            <p className="text-muted">4.5 (413)</p>
-                          </li>
-                        </ul>
-                        <p className="mb-2">$ • American, Restaurant</p>
-                        <p className="card-text">
-                          Some quick example text to build on the card title and make up the bulk of the
-                          card's content.
-                        </p>
+                        <h2 className="card-title " style={{ fontWeight: 600 }}>Premium</h2>
+                        <span className="text-danger"><s>$ 89.99/mo</s></span>
+                        <h2 className="mb-2" style={{ fontWeight: 'normal' }}>$ 9.99/mo</h2>
+                        <button className='btn btn' style={{ backgroundColor: '#e18df2', color: '#000' }}>Get Started <a style={{ color: '#000' }} href="#"><span className="fas fa-long-arrow-alt-right"></span></a></button>
                         <hr className="my-4" />
-                        <p className="lead"><strong>Tonight's availability</strong></p>
-                        <ul className="list-unstyled list-inline d-flex justify-content-between">
-                          <li className="list-inline-item me-0">
-                            <div className="chip me-0">5:30PM</div>
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <div className="chip bg-secondary text-white me-0">7:30PM</div>
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <div className="chip me-0">8:00PM</div>
-                          </li>
-                          <li className="list-inline-item me-0">
-                            <div className="chip me-0">9:00PM</div>
-                          </li>
-                        </ul>
-                        <a href="#!" className="btn btn-link link-secondary p-md-1 mb-0">Button</a>
+                        <p >What you'll get : </p>
+                        <div className="d-flex justify-content-start align-items-center mb-1">
+                          <i className="far fa-user fa-fw me-3" />
+                          <div className="d-flex flex-column">
+                            <p className="mb-0 small">Upto 25 Users</p>
+                          </div>
+                        </div>
+                        <div className="d-flex justify-content-start align-items-center mb-1">
+                          <i className="fa fa-cloud-arrow-up  me-3" />
+                          <div className="d-flex flex-column">
+                            <p className="mb-0 small">Upto 25gb Storage</p>
+                          </div>
+                        </div>
+                        <div className="d-flex justify-content-start align-items-center mb-1">
+                          <i className="far fa-envelope fa-fw me-3" />
+                          <div className="d-flex flex-column">
+                            <p className="mb-0 small">Email Support</p>
+                          </div>
+                        </div>
+                        <p className='mt-3 justify-content-center mb-0 small' style={{ fontWeight: 700, marginLeft: "35px" }}> <u>EXPLORE FEATURES</u><i style={{ color: "#e18df2" }} className="fa fa-play fa-fw me-3" /></p>
                       </div>
                     </div>
                   </div>
                 </div>
-
-
-
+               
               </div>
               <div className="row">
                 <div className="col-xl-3 col-sm-6 col-12 mb-4">
@@ -540,69 +502,6 @@ function App() {
           </div>
         </main>
         {/*Main layout*/}
-      </div>
-      <div className="container">
-        <section className="mx-auto my-5" style={{ maxWidth: '23rem' }}>
-          <div className="card card-form mt-2 mb-4">
-            <div className="card-body rounded-top pink darken-4">
-              <h3 className="font-weight-bold text-center text-uppercase text-white my-4">Sign up</h3>
-              <form className="pb-5 px-2" >
-                <div className="d-flex justify-content-start align-items-center mb-4">
-                  <i className="far fa-user fa-lg text-white fa-fw me-3" />
-                  <div className="form-outline form-white w-100">
-                    <input type="text" id="form1Example1" className="form-control" />
-                    <label className="form-label" htmlFor="form1Example1">First name</label>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-start align-items-center mb-4">
-                  <i className="far fa-hand-point-right fa-lg text-white fa-fw me-3" />
-                  <div className="form-outline form-white w-100">
-                    <input type="text" id="form1Example2" className="form-control" />
-                    <label className="form-label" htmlFor="form1Example2">Last name</label>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-start align-items-center mb-4">
-                  <i className="far fa-envelope fa-lg text-white fa-fw me-3" />
-                  <div className="form-outline form-white w-100">
-                    <input type="text" id="form1Example3" className="form-control" />
-                    <label className="form-label" htmlFor="form1Example3">E-mail</label>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-start align-items-center pb-3">
-                  <i className="far fa-star fa-lg text-white fa-fw me-3" />
-                  <div className="form-outline form-white w-100">
-                    <input type="password" id="form1Example4" className="form-control" />
-                    <label className="form-label" htmlFor="form1Example4">Password</label>
-                    <div className="form-helper text-white">At least 8 characters and 1 digit</div>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div className="card card-form-2 mb-0 z-depth-0">
-              <div className="card-body">
-                <form className="text-center">
-                  <div className="form-check red-checkbox my-3">
-                    <input className="form-check-input ms-auto" type="checkbox" defaultValue id="flexCheckDefault1" defaultChecked />
-                    <label className="form-check-label" htmlFor="flexCheckDefault1">
-                      Subscribe to our newsletter
-                    </label>
-                  </div>
-                  <button className="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" type="submit">Sign in</button>
-                  <p>or sign up with:</p>
-                  <i className="fab fa-lg fa-facebook-f pink-accent-text px-2" />
-                  <i className="fab fa-lg fa-twitter pink-accent-text px-2" />
-                  <i className="fab fa-lg fa-linkedin-in pink-accent-text px-2" />
-                  <i className="fab fa-lg fa-github pink-accent-text px-2" />
-                  <hr />
-                  <p>By clicking
-                    <em>Sign up</em> you agree to our
-                    <a className="pink-accent-text" href="#!" target="_blank">terms of service</a> and
-                    <a className="pink-accent-text" href="#!" target="_blank">terms of service</a>. </p>
-                </form>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
 
 
