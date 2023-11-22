@@ -1,5 +1,6 @@
 
 import './App.css';
+import tick from "./images/double-tick-icon.png"
 
 function App() {
   return (
@@ -263,172 +264,56 @@ function App() {
                     </div>
                   </div>
                 </div>
-               
               </div>
-              <div className="row">
-                <div className="col-xl-3 col-sm-6 col-12 mb-4">
-                  <div className="card">
-                    <div className="card-body">
-                      <div className="d-flex justify-content-between px-md-1">
-                        <div>
-                          <h3 className="text-danger">278</h3>
-                          <p className="mb-0">New Projects</p>
-                        </div>
-                        <div className="align-self-center">
-                          <i className="fas fa-rocket text-danger fa-3x" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-sm-6 col-12 mb-4">
-                  <div className="card">
-                    <div className="card-body">
-                      <div className="d-flex justify-content-between px-md-1">
-                        <div>
-                          <h3 className="text-success">156</h3>
-                          <p className="mb-0">New Clients</p>
-                        </div>
-                        <div className="align-self-center">
-                          <i className="far fa-user " />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-sm-6 col-12 mb-4">
-                  <div className="card">
-                    <div className="card-body">
-                      <div className="d-flex justify-content-between px-md-1">
-                        <div>
-                          <h3 className="text-warning">64.89 %</h3>
-                          <p className="mb-0">Conversion Rate</p>
-                        </div>
-                        <div className="align-self-center">
-                          <i className="fas fa-chart-pie text-warning fa-3x" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-sm-6 col-12 mb-4">
-                  <div className="card">
-                    <div className="card-body">
-                      <div className="d-flex justify-content-between px-md-1">
-                        <div>
-                          <h3 className="text-info">423</h3>
-                          <p className="mb-0">Support Tickets</p>
-                        </div>
-                        <div className="align-self-center">
-                          <i className="far fa-life-ring text-info fa-3x" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xl-3 col-sm-6 col-12 mb-4">
-                  <div className="card">
-                    <div className="card-body">
-                      <div className="d-flex justify-content-between px-md-1">
-                        <div>
-                          <h3 className="text-info">278</h3>
-                          <p className="mb-0">New Posts</p>
-                        </div>
-                        <div className="align-self-center">
-                          <i className="fas fa-book-open text-info fa-3x" />
-                        </div>
-                      </div>
-                      <div className="px-md-1">
-                        <div className="progress mt-3 mb-1 rounded" style={{ height: 7 }}>
-                          <div className="progress-bar bg-info" role="progressbar" style={{ width: '80%' }} aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-sm-6 col-12 mb-4">
-                  <div className="card">
-                    <div className="card-body">
-                      <div className="d-flex justify-content-between px-md-1">
-                        <div>
-                          <h3 className="text-warning">156</h3>
-                          <p className="mb-0">New Comments</p>
-                        </div>
-                        <div className="align-self-center">
-                          <i className="far fa-comments text-warning fa-3x" />
-                        </div>
-                      </div>
-                      <div className="px-md-1">
-                        <div className="progress mt-3 mb-1 rounded" style={{ height: 7 }}>
-                          <div className="progress-bar bg-warning" role="progressbar" style={{ width: '35%' }} aria-valuenow={35} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-sm-6 col-12 mb-4">
-                  <div className="card">
-                    <div className="card-body">
-                      <div className="d-flex justify-content-between px-md-1">
-                        <div>
-                          <h3 className="text-success">64.89 %</h3>
-                          <p className="mb-0">Bounce Rate</p>
-                        </div>
-                        <div className="align-self-center">
-                          <i className="fas fa-mug-hot text-success fa-3x" />
-                        </div>
-                      </div>
-                      <div className="px-md-1">
-                        <div className="progress mt-3 mb-1 rounded" style={{ height: 7 }}>
-                          <div className="progress-bar bg-success" role="progressbar" style={{ width: '60%' }} aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-sm-6 col-12 mb-4">
-                  <div className="card">
-                    <div className="card-body">
-                      <div className="d-flex justify-content-between px-md-1">
-                        <div>
-                          <h3 className="text-danger">423</h3>
-                          <p className="mb-0">Total Visits</p>
-                        </div>
-                        <div className="align-self-center">
-                          <i className="fas fa-map-signs text-danger fa-3x" />
-                        </div>
-                      </div>
-                      <div className="px-md-1">
-                        <div className="progress mt-3 mb-1 rounded" style={{ height: 7 }}>
-                          <div className="progress-bar bg-danger" role="progressbar" style={{ width: '40%' }} aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
             </section>
             {/*Section: Minimal statistics cards*/}
             {/*Section: Statistics with subtitles*/}
             <section>
+
               <div className="row">
                 <div className="col-xl-6 col-md-12 mb-4">
                   <div className="card">
                     <div className="card-body">
-                      <div className="d-flex justify-content-between p-md-1">
-                        <div className="d-flex flex-row">
-                          <div className="align-self-center">
-                            <i className="fas fa-pencil-alt text-info fa-3x me-4" />
-                          </div>
-                          <div>
-                            <h4>Total Posts</h4>
-                            <p className="mb-0">Monthly blog posts</p>
-                          </div>
+                      <div className="d-flex justify-content-between p-md-1 mx-0 ">
+                        <div>
+                          <button className='btn btn' style={{ borderRadius: "200px", backgroundColor: '#9ee8ad', color: '#000' }}
+                          >Free Forever
+                          </button>
+                          <h1 style={{ fontWeight: 700 }}>Free Starter</h1>
+                          <p>The quickest and easiest way to try protocols with basic functionalities</p>
+                          <button className='btn btn' style={{ backgroundColor: '#9ee8ad', color: '#000' }}
+                          >Get Started <a style={{ color: '#000' }} href="#">
+                              <span className="fas fa-long-arrow-alt-right"></span></a>
+                          </button>
                         </div>
-                        <div className="align-self-center">
-                          <h2 className="h1 mb-0">18,000</h2>
+                        <div className='col-sm-12 col-md-6 '>
+                          <p >What you'll get : </p>
+                          <div className="d-flex justify-content-start align-items-center mb-1">
+                            <i className="far fa-user fa-fw me-3" />
+                            <div className="d-flex flex-column">
+                              <p className="mb-0 small">Upto 25 Users</p>
+                            </div>
+                          </div>
+                          <div className="d-flex justify-content-start align-items-center mb-1">
+                            <i className="fa fa-cloud-arrow-up  me-3" />
+                            <div className="d-flex flex-column">
+                              <p className="mb-0 small">Upto 25gb Storage</p>
+                            </div>
+                          </div>
+                          <div className="d-flex justify-content-start align-items-center mb-1">
+                            <i className="far fa-envelope fa-fw me-3" />
+                            <div className="d-flex flex-column">
+                              <p className="mb-0 small">Email Support</p>
+                            </div>
+                          </div>
+                          <div className="d-flex justify-content-start align-items-center mb-1">
+                            <img className='me-3' style={{ marginBottom: 61, width: 30, height: 10 }} src={tick}></img>
+                            <div className="d-flex flex-column">
+                              <p className="mb-0 small">Basics of Documents,Task Flow,Voting, Accounting,
+                                Banking,Notes,,Investor,Director and Team Management included</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -437,24 +322,54 @@ function App() {
                 <div className="col-xl-6 col-md-12 mb-4">
                   <div className="card">
                     <div className="card-body">
-                      <div className="d-flex justify-content-between p-md-1">
-                        <div className="d-flex flex-row">
-                          <div className="align-self-center">
-                            <i className="far fa-comment-alt text-warning fa-3x me-4" />
-                          </div>
-                          <div>
-                            <h4>Total Comments</h4>
-                            <p className="mb-0">Monthly blog posts</p>
-                          </div>
+                      <div className="d-flex justify-content-between p-md-1 mx-0 ">
+                        <div>
+                          <button className='btn btn' style={{ borderRadius: "200px", backgroundColor: '#9ebae8', color: '#000' }}
+                          >Free Forever
+                          </button>
+                          <h1 style={{ fontWeight: 700 }}>Free Starter</h1>
+                          <p>The quickest and easiest way to try protocols with basic functionalities</p>
+                          <button className='btn btn' style={{ backgroundColor: '#9ebae8', color: '#000' }}
+                          >Get Started <a style={{ color: '#000' }} href="#">
+                              <span className="fas fa-long-arrow-alt-right"></span></a>
+                          </button>
                         </div>
-                        <div className="align-self-center">
-                          <h2 className="h1 mb-0">84,695</h2>
+                        <div className='col-sm-12 col-md-6 '>
+                          <p >What you'll get : </p>
+                          <div className="d-flex justify-content-start align-items-center mb-1">
+                            <i className="far fa-user fa-fw me-3" />
+                            <div className="d-flex flex-column">
+                              <p className="mb-0 small">Upto 25 Users</p>
+                            </div>
+                          </div>
+                          <div className="d-flex justify-content-start align-items-center mb-1">
+                            <i className="fa fa-cloud-arrow-up  me-3" />
+                            <div className="d-flex flex-column">
+                              <p className="mb-0 small">Upto 25gb Storage</p>
+                            </div>
+                          </div>
+                          <div className="d-flex justify-content-start align-items-center mb-1">
+                            <i className="far fa-envelope fa-fw me-3" />
+                            <div className="d-flex flex-column">
+                              <p className="mb-0 small">Email Support</p>
+                            </div>
+                          </div>
+                          <div className="d-flex justify-content-start align-items-center mb-1">
+                            <img className='me-3' style={{ marginBottom: 61, width: 30, height: 10 }} src={tick}></img>
+                            <div className="d-flex flex-column">
+                              <p className="mb-0 small">Basics of Documents,Task Flow,Voting, Accounting,
+                                Banking,Notes,,Investor,Director and Team Management included</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+               
               </div>
+            
+
               <div className="row">
                 <div className="col-xl-6 col-md-12 mb-4">
                   <div className="card">
