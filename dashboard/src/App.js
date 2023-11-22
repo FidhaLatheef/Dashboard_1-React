@@ -3,7 +3,11 @@ import './App.css';
 import tick from "./images/double-tick-icon.png"
 import logo1 from "./images/logo1.avif"
 import log from "./images/logremov.png"
-
+import p1 from "./images/d1.png"
+import p2 from "./images/d2.png"
+import p4 from "./images/d3.png"
+import p5 from "./images/d4.png"
+import p6 from "./images/d5.png"
 function App() {
   return (
     <div className="App">
@@ -21,44 +25,34 @@ function App() {
                   <p className=" mb-1" style={{ whiteSpace: 'nowrap' }}>rammohan2@gmail.com</p>
                 </div>
               </div>
-              <div className="mb-5">
-                <button className='mb-1 btn btn'> <i className="fas fa-chart-area fa-fw me-3" />Dashboard</button>
-                <button className='mb-1 btn btn'> <i className="fas fa-chart-area fa-fw me-3" />Dashboard</button>
-                <button className='mb-1 btn btn'> <i className="fas fa-chart-area fa-fw me-3" />Dashboard</button>
-              </div>
               <div className="list-group list-group-flush mx-3 mt-4">
-
-                {/* <a href="#" className="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-                  <i className="fas fa-tachometer-alt fa-fw me-3" /><span>Main dashboard</span>
-                </a> */}
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple  mb-2">
-                  <i className="fas fa-chart-area fa-fw me-3" /><span>Dashboard</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-2">
-                  <i className="fas fa-chart-area fa-fw me-3" /><span>Perks</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-2">
-                  <i className="fas fa-chart-area fa-fw me-3" /><span>Addons</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-2">
-                  <i className="fas fa-chart-area fa-fw me-3" /><span>FAQ</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-1">
-                  <i className="fas fa-chart-area fa-fw me-3" /><span>Support</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-lock fa-fw me-3" /><span>Password</span></a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-chart-line fa-fw me-3" /><span>Analytics</span></a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple">
-                  <i className="fas fa-chart-pie fa-fw me-3" /><span>SEO</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-chart-bar fa-fw me-3" /><span>Orders</span></a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-globe fa-fw me-3" /><span>International</span></a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-building fa-fw me-3" /><span>Partners</span></a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-calendar fa-fw me-3" /><span>Calendar</span></a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-users fa-fw me-3" /><span>Users</span></a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-money-bill fa-fw me-3" /><span>Sales</span></a>
+                <button className='mb-3 btn btn-secondary'>
+                  <img alt='pic' src={p1} style={{ width: '27px' }} />
+                  Dashboard
+                </button>
+                <button className='mb-3 btn btn-secondary'>
+                  <img alt='pic' src={p2} style={{ width: '27px' }} />
+                  Perks
+                </button>
+                <button className='mb-3 btn btn-secondary'>
+                  <img alt='pic' src={p4} style={{ width: '27px' }} />
+                  Addons
+                </button>
+                <button className='mb-3 btn btn-secondary'>
+                  <img alt='pic' src={p6} style={{ width: '27px' }} />
+                  FAQ
+                </button>
+                <button className='mb-3 btn btn-secondary'>
+                  <img alt='pic' src={p5} style={{ width: '27px' }} />
+                  Support
+                </button>
               </div>
+
             </div>
+            <button
+              type="button"
+              className="btn btn-tertiary " data-mdb-ripple-init data-mdb-ripple-color="light">
+              <i className="fas fa-chart-area fa-fw me-3" />Logout</button>
           </nav>
           {/* Sidebar */}
           {/* Navbar */}
@@ -67,7 +61,7 @@ function App() {
             <div className="container-fluid">
               {/* Brand */}
               <a className="navbar-brand" href="#" style={{ marginRight: '10px' }}>
-                <img src={log} height={89} alt loading="lazy" />
+                <img src={log} height={89} alt="lazy" />
               </a>
               {/* Search form */}
 
@@ -82,15 +76,15 @@ function App() {
 
         <main style={{ marginTop: 80 }}>
           <div className="container pt-4">
-          <div className='d-flex flex-column flex-md-row justify-content-between align-items-center'>
-    <h3 style={{ fontWeight: 600, paddingLeft: "10px", color: 'black' }} className="mt-5 mb-4">
-        Choose a plan that's just right for you!
-    </h3>
-    <div className="two-buttons mt-4 mt-md-0">
-        <button style={{ borderRadius: "200px" }} className="btn btn-secondary fw-bold">Monthly</button>
-        <button style={{ border: "none", background: "transparent" }} className="fw-bold">Annually</button>
-    </div>
-</div>
+            <div className='d-flex flex-column flex-md-row justify-content-between align-items-center'>
+              <h3 style={{ fontWeight: 600, paddingLeft: "10px", color: 'black' }} className="mt-5 mb-4">
+                Choose a plan that's just right for you!
+              </h3>
+              <div className="two-buttons mt-4 mt-md-0">
+                <button style={{ borderRadius: "200px" }} className="btn btn-secondary fw-bold">Monthly</button>
+                <button style={{ border: "none", background: "transparent" }} className="fw-bold">Annually</button>
+              </div>
+            </div>
 
 
             <section>
@@ -241,7 +235,7 @@ function App() {
                             </div>
                           </div>
                           <div className="d-flex justify-content-start align-items-center mb-1">
-                            <img className='me-3' style={{ marginBottom: 61, width: 30, height: 10 }} src={tick}></img>
+                            <img alt='tick' className='me-3' style={{ marginBottom: 61, width: 30, height: 10 }} src={tick}></img>
                             <div className="d-flex flex-column">
                               <p className="mb-0 small">Basics of Documents,Task Flow,Voting, Accounting,
                                 Banking,Notes,,Investor,Director and Team Management included</p>
@@ -275,10 +269,10 @@ function App() {
                               <p className="mb-0 small">More than 75 Users</p>
                             </div>
                           </div>
-                        
-                          
+
+
                           <div className="d-flex justify-content-start align-items-center mb-1">
-                            <img className='me-3' style={{ marginBottom: 22, width: 19, height: 10 }} src={tick}></img>
+                            <img className='me-3' style={{ marginBottom: 22, width: 19, height: 10 }} src={tick} alt='tick'></img>
                             <div className="d-flex flex-column">
                               <p className="mb-0 small">Customaisation of all other features</p>
                             </div>
