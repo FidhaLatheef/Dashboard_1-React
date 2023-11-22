@@ -55,3 +55,10 @@ body {
   border-radius: 2rem;
   border: 1px solid;
 }
+
+
+.btn.btn:hover {
+  background-color: #e3f5fc;
+  color:black;
+}
+

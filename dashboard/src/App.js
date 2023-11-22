@@ -8,15 +8,15 @@ import p2 from "./images/d2.png"
 import p4 from "./images/d3.png"
 import p5 from "./images/d4.png"
 import p6 from "./images/d5.png"
+
 function App() {
   return (
     <div className="App">
       <div>
         <header>
-          {/* Sidebar */}
           <nav id="sidebarMenu" className="collapse d-lg-block sidebar collapse bg-white">
             <div className="position-sticky mb-5">
-              <div className="card text-center">
+              <div className="card text-center mt-4">
                 <div className="card-header py-3">
                   <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" className="rounded-circle mt-3" style={{ width: 90 }} alt="Avatar" />
                   <h4 style={{ fontWeight: 800, marginTop: "5px" }} className=" mb-2">
@@ -26,46 +26,38 @@ function App() {
                 </div>
               </div>
               <div className="list-group list-group-flush mx-3 mt-4">
-                <button className='mb-3 btn btn-secondary'>
+                <button className='mb-3 btn btn d-flex justify-content-evenly align-items-center'>
                   <img alt='pic' src={p1} style={{ width: '27px' }} />
                   Dashboard
                 </button>
-                <button className='mb-3 btn btn-secondary'>
+                <button className='mb-3 btn btn d-flex justify-content-evenly align-items-center'>
                   <img alt='pic' src={p2} style={{ width: '27px' }} />
                   Perks
                 </button>
-                <button className='mb-3 btn btn-secondary'>
+                <button className='mb-3 btn btn d-flex justify-content-evenly align-items-center'>
                   <img alt='pic' src={p4} style={{ width: '27px' }} />
                   Addons
                 </button>
-                <button className='mb-3 btn btn-secondary'>
+                <button className='mb-3 btn btn d-flex justify-content-evenly align-items-center'>
                   <img alt='pic' src={p6} style={{ width: '27px' }} />
                   FAQ
                 </button>
-                <button className='mb-3 btn btn-secondary'>
+                <button className='mb-3 btn btn d-flex justify-content-evenly align-items-center'>
                   <img alt='pic' src={p5} style={{ width: '27px' }} />
                   Support
                 </button>
               </div>
-
             </div>
             <button
               type="button"
               className="btn btn-tertiary " data-mdb-ripple-init data-mdb-ripple-color="light">
               <i className="fas fa-chart-area fa-fw me-3" />Logout</button>
           </nav>
-          {/* Sidebar */}
-          {/* Navbar */}
           <nav id="main-navbar" className="navbar navbar-expand-lg   fixed-top" style={{ backgroundColor: '#e3f5fc', height: '90px' }}>
-            {/* Container wrapper */}
             <div className="container-fluid">
-              {/* Brand */}
               <a className="navbar-brand" href="#" style={{ marginRight: '10px' }}>
                 <img src={log} height={89} alt="lazy" />
               </a>
-              {/* Search form */}
-
-              {/* Right links */}
               <ul className="navbar-nav ms-auto d-flex flex-row">
                 <button style={{ backgroundColor: "white", marginRight: "10px" }} className='btn btn'><img style={{ width: '20px', height: '20px' }} src={logo1} alt="Logo" /> XYZ Enterprises Pvt.Ltd</button>
                 <button style={{ backgroundColor: "white", fontSize: "14px" }} className='btn btn'><i className='fa fa-angle-down fa-lg'></i></button>
@@ -85,8 +77,6 @@ function App() {
                 <button style={{ border: "none", background: "transparent" }} className="fw-bold">Annually</button>
               </div>
             </div>
-
-
             <section>
               <div className="row">
                 <div className="col-12 col-md-6 col-lg-4 mb-4">
@@ -269,8 +259,6 @@ function App() {
                               <p className="mb-0 small">More than 75 Users</p>
                             </div>
                           </div>
-
-
                           <div className="d-flex justify-content-start align-items-center mb-1">
                             <img className='me-3' style={{ marginBottom: 22, width: 19, height: 10 }} src={tick} alt='tick'></img>
                             <div className="d-flex flex-column">
