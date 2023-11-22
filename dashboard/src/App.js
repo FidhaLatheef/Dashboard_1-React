@@ -21,22 +21,30 @@ function App() {
                   <p className=" mb-1" style={{ whiteSpace: 'nowrap' }}>rammohan2@gmail.com</p>
                 </div>
               </div>
+              <div className="mb-5">
+                <button className='mb-1 btn btn'> <i className="fas fa-chart-area fa-fw me-3" />Dashboard</button>
+                <button className='mb-1 btn btn'> <i className="fas fa-chart-area fa-fw me-3" />Dashboard</button>
+                <button className='mb-1 btn btn'> <i className="fas fa-chart-area fa-fw me-3" />Dashboard</button>
+              </div>
               <div className="list-group list-group-flush mx-3 mt-4">
 
                 {/* <a href="#" className="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                   <i className="fas fa-tachometer-alt fa-fw me-3" /><span>Main dashboard</span>
                 </a> */}
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-1">
+                <a href="#" className="list-group-item list-group-item-action py-2 ripple  mb-2">
                   <i className="fas fa-chart-area fa-fw me-3" /><span>Dashboard</span>
                 </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-1">
-                  <i className="fas fa-chart-area fa-fw me-3" /><span>Dashboard</span>
+                <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-2">
+                  <i className="fas fa-chart-area fa-fw me-3" /><span>Perks</span>
+                </a>
+                <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-2">
+                  <i className="fas fa-chart-area fa-fw me-3" /><span>Addons</span>
+                </a>
+                <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-2">
+                  <i className="fas fa-chart-area fa-fw me-3" /><span>FAQ</span>
                 </a>
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-1">
-                  <i className="fas fa-chart-area fa-fw me-3" /><span>Dashboard</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple active mb-1">
-                  <i className="fas fa-chart-area fa-fw me-3" /><span>Dashboard</span>
+                  <i className="fas fa-chart-area fa-fw me-3" /><span>Support</span>
                 </a>
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-lock fa-fw me-3" /><span>Password</span></a>
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-chart-line fa-fw me-3" /><span>Analytics</span></a>
@@ -74,9 +82,17 @@ function App() {
 
         <main style={{ marginTop: 80 }}>
           <div className="container pt-4">
-            <h3 style={{ fontWeight: 600, paddingLeft: "10px", color: 'black' }} className="mt-5 mb-4">
-              Choose a plan that's just right for you!
-            </h3>
+          <div className='d-flex flex-column flex-md-row justify-content-between align-items-center'>
+    <h3 style={{ fontWeight: 600, paddingLeft: "10px", color: 'black' }} className="mt-5 mb-4">
+        Choose a plan that's just right for you!
+    </h3>
+    <div className="two-buttons mt-4 mt-md-0">
+        <button style={{ borderRadius: "200px" }} className="btn btn-secondary fw-bold">Monthly</button>
+        <button style={{ border: "none", background: "transparent" }} className="fw-bold">Annually</button>
+    </div>
+</div>
+
+
             <section>
               <div className="row">
                 <div className="col-12 col-md-6 col-lg-4 mb-4">
@@ -194,7 +210,7 @@ function App() {
                     <div className="card-body">
                       <div className="d-flex justify-content-between p-md-1 mx-0 ">
                         <div>
-                          <button className='btn btn' style={{ borderRadius: "200px", backgroundColor: '#9ee8ad', color: '#000' }}
+                          <button className='btn btn mb-2' style={{ borderRadius: "200px", backgroundColor: '#9ee8ad', color: '#000' }}
                           >Free Forever
                           </button>
                           <h1 style={{ fontWeight: 700 }}>Free Starter</h1>
@@ -241,13 +257,13 @@ function App() {
                     <div className="card-body">
                       <div className="d-flex justify-content-between p-md-1 mx-0 ">
                         <div>
-                          <button className='btn btn ' style={{ borderRadius: "200px", backgroundColor: '#9ebae8', color: '#000' }}
+                          <button className='btn btn mb-2' style={{ borderRadius: "200px", backgroundColor: '#9ebae8', color: '#000' }}
                           >Free Forever
                           </button>
                           <h1 style={{ fontWeight: 700 }}>Free Starter</h1>
                           <p>The quickest and easiest way to try protocols with basic functionalities</p>
                           <button className='btn btn' style={{ backgroundColor: '#9ebae8', color: '#000' }}
-                          >Get Started <a style={{ color: '#000' }} href="#">
+                          >Contact Us <a style={{ color: '#000' }} href="#">
                               <span className="fas fa-long-arrow-alt-right"></span></a>
                           </button>
                         </div>
@@ -256,26 +272,15 @@ function App() {
                           <div className="d-flex justify-content-start align-items-center mb-1">
                             <i className="far fa-user fa-fw me-3" />
                             <div className="d-flex flex-column">
-                              <p className="mb-0 small">Upto 25 Users</p>
+                              <p className="mb-0 small">More than 75 Users</p>
                             </div>
                           </div>
+                        
+                          
                           <div className="d-flex justify-content-start align-items-center mb-1">
-                            <i className="fa fa-cloud-arrow-up  me-3" />
+                            <img className='me-3' style={{ marginBottom: 22, width: 19, height: 10 }} src={tick}></img>
                             <div className="d-flex flex-column">
-                              <p className="mb-0 small">Upto 25gb Storage</p>
-                            </div>
-                          </div>
-                          <div className="d-flex justify-content-start align-items-center mb-1">
-                            <i className="far fa-envelope fa-fw me-3" />
-                            <div className="d-flex flex-column">
-                              <p className="mb-0 small">Email Support</p>
-                            </div>
-                          </div>
-                          <div className="d-flex justify-content-start align-items-center mb-1">
-                            <img className='me-3' style={{ marginBottom: 61, width: 30, height: 10 }} src={tick}></img>
-                            <div className="d-flex flex-column">
-                              <p className="mb-0 small">Basics of Documents,Task Flow,Voting, Accounting,
-                                Banking,Notes,,Investor,Director and Team Management included</p>
+                              <p className="mb-0 small">Customaisation of all other features</p>
                             </div>
                           </div>
                         </div>
@@ -288,7 +293,7 @@ function App() {
           </div>
           <p className='text-end text-primary'>*some unique features are provided as adds-ons with individual plans for each features</p>
         </main>
-       
+
         {/*Main layout*/}
       </div>
     </div>
