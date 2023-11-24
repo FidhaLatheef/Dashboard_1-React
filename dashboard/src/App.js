@@ -47,20 +47,20 @@ function App() {
                   Support
                 </button>
               </div>
-
-
             </div>
             <div className='d-flex align-items-center justify-content-center'>
-            <button
-              type="button"
-              className="btn btn-tertiary text-center " data-mdb-ripple-init data-mdb-ripple-color="light">
-              Logout <i className="fa fa-power-off me-3" />
+              <button
+                type="button"
+                className="btn btn-tertiary text-center " data-mdb-ripple-init data-mdb-ripple-color="light">
+                Logout <i className="fa fa-power-off me-3" />
               </button>
             </div>
-            
           </nav>
           <nav id="main-navbar" className="navbar navbar-expand-lg   fixed-top" style={{ backgroundColor: '#e3f5fc', height: '90px' }}>
             <div className="container-fluid">
+              {/* <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <i className="fas fa-bars" />
+              </button> */}
               <a className="navbar-brand" href="#" style={{ marginRight: '10px' }}>
                 <img src={log} height={89} alt="lazy" />
               </a>
@@ -71,7 +71,6 @@ function App() {
             </div>
           </nav>
         </header>
-
         <main style={{ marginTop: 80 }}>
           <div className="container pt-4">
             <div className='d-flex flex-column flex-md-row justify-content-between align-items-center'>
@@ -81,7 +80,7 @@ function App() {
               <div className="two-buttons mt-4 mt-md-0">
                 <button style={{ borderRadius: "200px" }} className="btn btn-secondary fw-bold">Monthly</button>
                 <button style={{ border: "none", background: "transparent" }} className="fw-bold d-flex">Annually
-                <span style={{fontSize:"65%" ,color:"green"}}>-10%</span></button>
+                  <span style={{ fontSize: "65%", color: "green" }}>-10%</span></button>
               </div>
             </div>
             <section>
@@ -283,8 +282,6 @@ function App() {
           </div>
           <p className='text-end text-primary'>*some unique features are provided as adds-ons with individual plans for each features</p>
         </main>
-
-        {/*Main layout*/}
       </div>
     </div>
   );
