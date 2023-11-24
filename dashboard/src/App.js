@@ -121,8 +121,8 @@ function App() {
                       <div className="card-body">
                         <h2 className="card-title " style={{ fontWeight: 600 }}>Standard</h2>
 
-                        <span className="text-danger"><s>$ 89.99/mo</s></span>
-                        <h2 className="mb-2" style={{ fontWeight: 'normal' }}>$ 9.99/mo</h2>
+                        <span className="text-danger"><s>$ 189.99/mo</s></span>
+                        <h2 className="mb-2" style={{ fontWeight: 'normal' }}>$ 99.99/mo</h2>
 
                         <button className='btn btn' style={{ backgroundColor: '#f28d98', color: '#000' }}>Get Started <a style={{ color: '#000' }} href="#"><span className="fas fa-long-arrow-alt-right"></span></a></button>
                         <hr className="my-4" />
@@ -131,19 +131,19 @@ function App() {
                         <div className="d-flex justify-content-start align-items-center mb-1">
                           <i className="far fa-user fa-fw me-3" />
                           <div className="d-flex flex-column">
-                            <p className="mb-0 small">Upto 25 Users</p>
+                            <p className="mb-0 small">Upto 50 Users</p>
                           </div>
                         </div>
                         <div className="d-flex justify-content-start align-items-center mb-1">
                           <i className="fa fa-cloud-arrow-up  me-3" />
                           <div className="d-flex flex-column">
-                            <p className="mb-0 small">Upto 25gb Storage</p>
+                            <p className="mb-0 small">Upto 60gb Storage</p>
                           </div>
                         </div>
                         <div className="d-flex justify-content-start align-items-center mb-1">
                           <i className="far fa-envelope fa-fw me-3" />
                           <div className="d-flex flex-column">
-                            <p className="mb-0 small">Email Support</p>
+                            <p className="mb-0 small">Email+Chat Support</p>
                           </div>
                         </div>
                         <p className='mt-3 justify-content-center mb-0 small' style={{ fontWeight: 700, marginLeft: "35px" }}> <u>EXPLORE FEATURES</u><i style={{ color: "#f28d98" }} className="fa fa-play fa-fw me-3" /></p>
@@ -156,27 +156,27 @@ function App() {
                     <div class="container">
                       <div className="card-body">
                         <h2 className="card-title " style={{ fontWeight: 600 }}>Premium</h2>
-                        <span className="text-danger"><s>$ 89.99/mo</s></span>
-                        <h2 className="mb-2" style={{ fontWeight: 'normal' }}>$ 9.99/mo</h2>
+                        <span className="text-danger"><s>$ 389.99/mo</s></span>
+                        <h2 className="mb-2" style={{ fontWeight: 'normal' }}>$ 199.99/mo</h2>
                         <button className='btn btn' style={{ backgroundColor: '#e18df2', color: '#000' }}>Get Started <a style={{ color: '#000' }} href="#"><span className="fas fa-long-arrow-alt-right"></span></a></button>
                         <hr className="my-4" />
                         <p >What you'll get : </p>
                         <div className="d-flex justify-content-start align-items-center mb-1">
                           <i className="far fa-user fa-fw me-3" />
                           <div className="d-flex flex-column">
-                            <p className="mb-0 small">Upto 25 Users</p>
+                            <p className="mb-0 small">Upto 75 Users</p>
                           </div>
                         </div>
                         <div className="d-flex justify-content-start align-items-center mb-1">
                           <i className="fa fa-cloud-arrow-up  me-3" />
                           <div className="d-flex flex-column">
-                            <p className="mb-0 small">Upto 25gb Storage</p>
+                            <p className="mb-0 small">Upto 100gb Storage</p>
                           </div>
                         </div>
                         <div className="d-flex justify-content-start align-items-center mb-1">
                           <i className="far fa-envelope fa-fw me-3" />
                           <div className="d-flex flex-column">
-                            <p className="mb-0 small">Email Support</p>
+                            <p className="mb-0 small">Email+Chat+Whatsapp Support</p>
                           </div>
                         </div>
                         <p className='mt-3 justify-content-center mb-0 small' style={{ fontWeight: 700, marginLeft: "35px" }}> <u>EXPLORE FEATURES</u><i style={{ color: "#e18df2" }} className="fa fa-play fa-fw me-3" /></p>
@@ -187,95 +187,6 @@ function App() {
               </div>
             </section>
             <div>
-
-              {/*Section: Minimal statistics cards*/}
-              {/*Section: Statistics with subtitles*/}
-              <section>
-                <div className="row">
-                  <div className="col-xl-6 col-md-12 mb-4">
-                    <div className="card">
-                      <div className="card-body">
-                        <div className="d-flex justify-content-between p-md-1">
-                          <div className="d-flex flex-row">
-                            <div className="align-self-center">
-                              <i className="fas fa-pencil-alt text-info fa-3x me-4" />
-                            </div>
-                            <div>
-                              <h4>Total Posts</h4>
-                              <p className="mb-0">Monthly blog posts</p>
-                            </div>
-                          </div>
-                          <div className="align-self-center">
-                            <h2 className="h1 mb-0">18,000</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-6 col-md-12 mb-4">
-                    <div className="card">
-                      <div className="card-body">
-                        <div className="d-flex justify-content-between p-md-1">
-                          <div className="d-flex flex-row">
-                            <div className="align-self-center">
-                              <i className="far fa-comment-alt text-warning fa-3x me-4" />
-                            </div>
-                            <div>
-                              <h4>Total Comments</h4>
-                              <p className="mb-0">Monthly blog posts</p>
-                            </div>
-                          </div>
-                          <div className="align-self-center">
-                            <h2 className="h1 mb-0">84,695</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-xl-6 col-md-12 mb-4">
-                    <div className="card">
-                      <div className="card-body">
-                        <div className="d-flex justify-content-between p-md-1">
-                          <div className="d-flex flex-row">
-                            <div className="align-self-center">
-                              <h2 className="h1 mb-0 me-4">$76,456.00</h2>
-                            </div>
-                            <div>
-                              <h4>Total Sales</h4>
-                              <p className="mb-0">Monthly Sales Amount</p>
-                            </div>
-                          </div>
-                          <div className="align-self-center">
-                            <i className="far fa-heart text-danger fa-3x" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-6 col-md-12 mb-4">
-                    <div className="card">
-                      <div className="card-body">
-                        <div className="d-flex justify-content-between p-md-1">
-                          <div className="d-flex flex-row">
-                            <div className="align-self-center">
-                              <h2 className="h1 mb-0 me-4">$36,000.00</h2>
-                            </div>
-                            <div>
-                              <h4>Total Cost</h4>
-                              <p className="mb-0">Monthly Cost</p>
-                            </div>
-                          </div>
-                          <div className="align-self-center">
-                            <i className="fas fa-wallet text-success fa-3x" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
             </div>
             <section>
               <div className="row">
@@ -295,7 +206,7 @@ function App() {
                           </button>
                         </div>
                         <div className='col-sm-12 col-md-6 '>
-                          <p >What you'll get : </p>
+                          <p className='mt-3'>What you'll get : </p>
                           <div className="d-flex justify-content-start align-items-center mb-1">
                             <i className="far fa-user fa-fw me-3" />
                             <div className="d-flex flex-column">
@@ -332,7 +243,7 @@ function App() {
                       <div className="row justify-content-between p-md-1 mx-0 ">
                         <div className='col-sm-12 col-md-6 '>
                           <button className='btn btn mb-2' style={{ borderRadius: "200px", backgroundColor: '#9ebae8', color: '#000' }}
-                          >Free Forever
+                          >Lets Connect
                           </button>
                           <h3 style={{ fontWeight: 700 }}>Enterprise Plan</h3>
                           <p>Effortlessly customize and fine-tunes services as your needs shift, ensuring the perfect tools for sucess</p>
@@ -342,7 +253,7 @@ function App() {
                           </button>
                         </div>
                         <div className='col-sm-12 col-md-6 '>
-                          <p >What you'll get : </p>
+                          <p className='mt-5'>What you'll get : </p>
                           <div className="d-flex justify-content-start align-items-center mb-1">
                             <i className="far fa-user fa-fw me-3" />
                             <div className="d-flex flex-column">
