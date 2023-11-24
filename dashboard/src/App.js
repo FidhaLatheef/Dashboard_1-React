@@ -186,18 +186,108 @@ function App() {
                 </div>
               </div>
             </section>
+            <div>
 
+              {/*Section: Minimal statistics cards*/}
+              {/*Section: Statistics with subtitles*/}
+              <section>
+                <div className="row">
+                  <div className="col-xl-6 col-md-12 mb-4">
+                    <div className="card">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-between p-md-1">
+                          <div className="d-flex flex-row">
+                            <div className="align-self-center">
+                              <i className="fas fa-pencil-alt text-info fa-3x me-4" />
+                            </div>
+                            <div>
+                              <h4>Total Posts</h4>
+                              <p className="mb-0">Monthly blog posts</p>
+                            </div>
+                          </div>
+                          <div className="align-self-center">
+                            <h2 className="h1 mb-0">18,000</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-6 col-md-12 mb-4">
+                    <div className="card">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-between p-md-1">
+                          <div className="d-flex flex-row">
+                            <div className="align-self-center">
+                              <i className="far fa-comment-alt text-warning fa-3x me-4" />
+                            </div>
+                            <div>
+                              <h4>Total Comments</h4>
+                              <p className="mb-0">Monthly blog posts</p>
+                            </div>
+                          </div>
+                          <div className="align-self-center">
+                            <h2 className="h1 mb-0">84,695</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-xl-6 col-md-12 mb-4">
+                    <div className="card">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-between p-md-1">
+                          <div className="d-flex flex-row">
+                            <div className="align-self-center">
+                              <h2 className="h1 mb-0 me-4">$76,456.00</h2>
+                            </div>
+                            <div>
+                              <h4>Total Sales</h4>
+                              <p className="mb-0">Monthly Sales Amount</p>
+                            </div>
+                          </div>
+                          <div className="align-self-center">
+                            <i className="far fa-heart text-danger fa-3x" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-6 col-md-12 mb-4">
+                    <div className="card">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-between p-md-1">
+                          <div className="d-flex flex-row">
+                            <div className="align-self-center">
+                              <h2 className="h1 mb-0 me-4">$36,000.00</h2>
+                            </div>
+                            <div>
+                              <h4>Total Cost</h4>
+                              <p className="mb-0">Monthly Cost</p>
+                            </div>
+                          </div>
+                          <div className="align-self-center">
+                            <i className="fas fa-wallet text-success fa-3x" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
             <section>
               <div className="row">
                 <div className="col-xl-6 col-md-12 mb-4">
                   <div className="card">
                     <div className="card-body">
-                      <div className="d-flex justify-content-between p-md-1 mx-0 ">
-                        <div>
+                      <div className="row justify-content-between p-md-1 mx-0 ">
+                        <div className='col-sm-12 col-md-6 '>
                           <button className='btn btn mb-2' style={{ borderRadius: "200px", backgroundColor: '#9ee8ad', color: '#000' }}
                           >Free Forever
                           </button>
-                          <h1 style={{ fontWeight: 700 }}>Free Starter</h1>
+                          <h3 style={{ fontWeight: 700 }}>Free Starter</h3>
                           <p>The quickest and easiest way to try protocols with basic functionalities</p>
                           <button className='btn btn' style={{ backgroundColor: '#9ee8ad', color: '#000' }}
                           >Get Started <a style={{ color: '#000' }} href="#">
@@ -239,13 +329,13 @@ function App() {
                 <div className="col-xl-6 col-md-12 mb-4">
                   <div className="card">
                     <div className="card-body">
-                      <div className="d-flex justify-content-between p-md-1 mx-0 ">
-                        <div>
+                      <div className="row justify-content-between p-md-1 mx-0 ">
+                        <div className='col-sm-12 col-md-6 '>
                           <button className='btn btn mb-2' style={{ borderRadius: "200px", backgroundColor: '#9ebae8', color: '#000' }}
                           >Free Forever
                           </button>
-                          <h1 style={{ fontWeight: 700 }}>Free Starter</h1>
-                          <p>The quickest and easiest way to try protocols with basic functionalities</p>
+                          <h3 style={{ fontWeight: 700 }}>Enterprise Plan</h3>
+                          <p>Effortlessly customize and fine-tunes services as your needs shift, ensuring the perfect tools for sucess</p>
                           <button className='btn btn' style={{ backgroundColor: '#9ebae8', color: '#000' }}
                           >Contact Us <a style={{ color: '#000' }} href="#">
                               <span className="fas fa-long-arrow-alt-right"></span></a>
