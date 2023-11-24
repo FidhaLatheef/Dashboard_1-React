@@ -15,7 +15,7 @@ function App() {
       <div>
         <header>
           <nav id="sidebarMenu" className="collapse d-lg-block sidebar collapse bg-white">
-            <div className="position-sticky mb-5">
+            <div className="position-sticky">
               <div className="card text-center mt-4">
                 <div className="card-header py-3">
                   <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" className="rounded-circle mt-3" style={{ width: 90 }} alt="Avatar" />
@@ -26,32 +26,38 @@ function App() {
                 </div>
               </div>
               <div className="list-group list-group-flush mx-3 mt-4">
-                <button className='mb-3 btn btn d-flex justify-content-evenly align-items-center'>
-                  <img alt='pic' src={p1} style={{ width: '27px' }} />
+                <button className='mb-2 btn btn d-flex align-items-center'>
+                  <img alt='pic' src={p1} style={{ width: '27px', marginRight: '9px' }} />
                   Dashboard
                 </button>
-                <button className='mb-3 btn btn d-flex justify-content-evenly align-items-center'>
-                  <img alt='pic' src={p2} style={{ width: '27px' }} />
+                <button className='mb-2 btn btn d-flex align-items-center'>
+                  <img alt='pic' src={p2} style={{ width: '27px', marginRight: '9px' }} />
                   Perks
                 </button>
-                <button className='mb-3 btn btn d-flex justify-content-evenly align-items-center'>
-                  <img alt='pic' src={p4} style={{ width: '27px' }} />
+                <button className='mb-2 btn btn d-flex align-items-center'>
+                  <img alt='pic' src={p4} style={{ width: '27px', marginRight: '9px' }} />
                   Addons
                 </button>
-                <button className='mb-3 btn btn d-flex justify-content-evenly align-items-center'>
-                  <img alt='pic' src={p6} style={{ width: '27px' }} />
+                <button className='mb-2 btn btn d-flex align-items-center'>
+                  <img alt='pic' src={p6} style={{ width: '27px', marginRight: '9px' }} />
                   FAQ
                 </button>
-                <button className='mb-3 btn btn d-flex justify-content-evenly align-items-center'>
-                  <img alt='pic' src={p5} style={{ width: '27px' }} />
+                <button className='mb-2 btn btn d-flex align-items-center'>
+                  <img alt='pic' src={p5} style={{ width: '27px', marginRight: '9px' }} />
                   Support
                 </button>
               </div>
+
+
             </div>
+            <div className='d-flex align-items-center justify-content-center'>
             <button
               type="button"
-              className="btn btn-tertiary " data-mdb-ripple-init data-mdb-ripple-color="light">
-              <i className="fas fa-chart-area fa-fw me-3" />Logout</button>
+              className="btn btn-tertiary text-center " data-mdb-ripple-init data-mdb-ripple-color="light">
+              Logout <i className="fa fa-power-off me-3" />
+              </button>
+            </div>
+            
           </nav>
           <nav id="main-navbar" className="navbar navbar-expand-lg   fixed-top" style={{ backgroundColor: '#e3f5fc', height: '90px' }}>
             <div className="container-fluid">
@@ -74,7 +80,8 @@ function App() {
               </h3>
               <div className="two-buttons mt-4 mt-md-0">
                 <button style={{ borderRadius: "200px" }} className="btn btn-secondary fw-bold">Monthly</button>
-                <button style={{ border: "none", background: "transparent" }} className="fw-bold">Annually</button>
+                <button style={{ border: "none", background: "transparent" }} className="fw-bold d-flex">Annually
+                <span style={{fontSize:"65%" ,color:"green"}}>-10%</span></button>
               </div>
             </div>
             <section>
