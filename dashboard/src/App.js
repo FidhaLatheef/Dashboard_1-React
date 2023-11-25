@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div>
-<Header/>
+        <Header/>
         <main style={{ marginTop: 80 }}>
           <div className="container pt-4">
             <div className='d-flex flex-column flex-md-row justify-content-between align-items-center'>
@@ -172,7 +172,7 @@ function App() {
                             <img alt='tick' className='me-3' style={{ marginBottom: 61, width: 30, height: 10 }} src={tick}></img>
                             <div className="d-flex flex-column">
                               <p className="mb-0 small">Basics of Documents,Task Flow,Voting, Accounting,
-                                Banking,Notes,,Investor,Director and Team Management included</p>
+                                Banking,Notes,Investor,Director and Team Management included</p>
                             </div>
                           </div>
                         </div>

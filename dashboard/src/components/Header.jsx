@@ -54,17 +54,30 @@ function header() {
               </button>
             </div>
           </nav>
-          <nav id="main-navbar" className="navbar navbar-expand-lg   fixed-top" style={{ backgroundColor: '#e3f5fc', height: '90px' }}>
-            <div className="container-fluid">
-              <a className="navbar-brand" href="#" style={{ marginRight: '10px' }}>
-                <img src={log} height={89} alt="lazy" />
+          <nav id="main-navbar" className="navbar navbar-expand-lg navbar-light fixed-top" style={{ backgroundColor: '#e3f5fc', height: '90px' }}>
+          <div className='head1'>
+            <div className='head-style'>
+              <a href="#">
+                <img style={{ marginLeft: "100px" }} src={log} height={89} alt="lazy" />
               </a>
-              <ul className="navbar-nav ms-auto d-flex flex-row">
-                <button style={{ backgroundColor: "white", marginRight: "10px" }} className='btn btn'><img style={{ width: '20px', height: '20px' }} src={logo1} alt="Logo" /> XYZ Enterprises Pvt.Ltd</button>
-                <button style={{ backgroundColor: "white", fontSize: "14px" }} className='btn btn'><i className='fa fa-angle-down fa-lg'></i></button>
+            </div>
+          </div>
+          <div className="container-fluid">
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav ms-auto">
+                <li className="nav-item">
+                  <button style={{ backgroundColor: "white", marginRight: "10px" }} className='btn btn'><img style={{ width: '20px', height: '20px' }} src={logo1} alt="Logo" /> XYZ Enterprises Pvt.Ltd</button>
+                </li>
+                <li className="nav-item">
+                  <button style={{ backgroundColor: "white", fontSize: "14px" }} className='btn btn'><i className='fa fa-angle-down fa-lg'></i></button>
+                </li>
               </ul>
             </div>
-          </nav>
+          </div>
+        </nav>
         </header>
     </div>
   )

@@ -42,9 +42,7 @@ body {
   padding-top: 0.5rem;
   overflow-x: hidden;
   overflow-y: auto;
-  /* Scrollable contents if viewport is shorter than content. */
 }
-
 
 .two-buttons {
   height: 3rem;
@@ -56,9 +54,19 @@ body {
   border: 1px solid;
 }
 
-
 .btn.btn:hover {
   background-color: #e3f5fc;
   color:black;
 }
+.head1{
+  width: 150px;
+  background-color: white;
+}
+.head-style{
+  margin-top: -6px;
+  width: 582px;
+  height: 92px;
+  background: linear-gradient(138deg, #ffff 50%, #e3f5fc 50%);
 
+
+}
