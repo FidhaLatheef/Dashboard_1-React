@@ -58,9 +58,6 @@ function App() {
           </nav>
           <nav id="main-navbar" className="navbar navbar-expand-lg   fixed-top" style={{ backgroundColor: '#e3f5fc', height: '90px' }}>
             <div className="container-fluid">
-              {/* <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                <i className="fas fa-bars" />
-              </button> */}
               <a className="navbar-brand" href="#" style={{ marginRight: '10px' }}>
                 <img src={log} height={89} alt="lazy" />
               </a>
